@@ -38,7 +38,7 @@ export default function Education() {
           <div className="text-gray-800 dark:text-white">
             <h2 className="text-2xl font-semibold mb-2">Personal Information</h2>
             <p><strong>Name:</strong> Mihiretu Fentahun Endalamaw</p>
-            <p><strong>Date of birth:</strong> January 23, 1997 G.C</p>
+            
             <p><strong>Place of birth:</strong> Girakidamin, East Gojjam zone, Ethiopia</p>
             <p><strong>Nationality:</strong> Ethiopian</p>
             <p><strong>Health:</strong> Normal</p>
