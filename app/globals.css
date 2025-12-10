@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional CSS variables for light/dark mode */
+:root {
+  --bg-start: 214, 219, 220; /* light gray start */
+  --bg-end: 255, 255, 255;   /* light gray end */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-start: 0, 0, 0;
+    --bg-end: 30, 30, 30;
+  }
+}
+
+/* Apply gradient to body */
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--bg-start)),
+      rgb(var(--bg-end))
+    );
+}
