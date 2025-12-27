@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Force hide the Next.js Dev Indicator portal */
+nextjs-portal {
+  display: none !important;
+}
+
 /* Optional CSS variables for light/dark mode */
 :root {
-  --bg-start: 214, 219, 220; /* light gray start */
-  --bg-end: 255, 255, 255;   /* light gray end */
+  --bg-start: 214, 219, 220; 
+  --bg-end: 255, 255, 255;   
 }
 
 @media (prefers-color-scheme: dark) {
